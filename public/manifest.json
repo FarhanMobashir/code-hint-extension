@@ -1,0 +1,10 @@
+{
+  "manifest_version": 3,
+  "name": "Coding Hint Extension",
+  "version": "1.0",
+  "description": "A Chrome extension that provides hints for coding problems.",
+  "permissions": ["storage", "activeTab", "scripting"],
+  "action": {
+    "default_popup": "index.html"
+  }
+}
